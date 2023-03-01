@@ -3,11 +3,10 @@
 }
 
 .App-header {
-  background-color: #000000;
+  background-color: #000;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -22,11 +21,16 @@
 .redback-logo {
   max-width: calc(200px + 1vmin);
   display: flex;
-  align-self: center;
-  padding-top: 5%;
+  align-self: left;
+  padding-top: 0;
 }
 
 .value-title {
   font-size: calc(25px + 2vmin);
+}
+
+.list-stuff {
+  display: inline-block;
+  list-style: none;
 }
 
